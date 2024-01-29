@@ -4,7 +4,7 @@ package com.githubactions;
  * Hello world!
  *
  */
-public class App  
+public class Demo  
 {
     public static void main( String[] args )
     { // two integer variables with values
