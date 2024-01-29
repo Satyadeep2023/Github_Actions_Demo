@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY target/demopipeline-1.0-SNAPSHOT.jar /app/demopipeline.jar
 
-Expose 8080
+EXPOSE 8080
 
 CMD ["java", "-jar", "demopipeline.jar"]
