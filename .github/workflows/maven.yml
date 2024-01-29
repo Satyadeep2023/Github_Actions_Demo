@@ -49,7 +49,7 @@ jobs:
         context: .
         push: true
         dockerfile: Dockerfile
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/ Github-actions:latest
+        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/github-actions:latest
         
         
         
