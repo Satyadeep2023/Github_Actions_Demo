@@ -7,9 +7,10 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  build and push:
 
     runs-on: ubuntu-latest
+    name: A job to build and push docker
 
     steps:
     - uses: actions/checkout@v3
